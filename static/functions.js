@@ -13,7 +13,7 @@ var inputWithUrl = function () {
 		'<input type="text" placeholder="text overlay" id="selftext">',
 		'<button type="button" onclick="displayImageFromUrl()">Preview Image</button>',
 		'</form>',
-		"<button type='button' onclick='refresh()'>Back</button>",
+		"<button type='button' onclick='chooseInputType()'>Back</button>",
 		].join('');
 	var div = document.getElementById('main');
 	div.innerHTML = '';
@@ -26,13 +26,13 @@ var inputWithFile = function () {
 	"<input type='file' id='inputFile'>",
 	"<input type='submit' value='submit' id='submitFromFile' onclick=''>",
 	"</form>",
-	"<button type='button' onclick='refresh()'>Back</button>",
+	"<button type='button' onclick='chooseInputType()'>Back</button>",
 	].join('');
 	var div = document.getElementById('main');
 	div.innerHTML = '';
 	div.innerHTML = html;
 }
-var refresh = function () {
+var chooseInputType = function () {
 	var html = [
 	'<li><button type="button" onclick="inputWithFile()">From file</button></li>',
 	'<li><button type="button" onclick="inputWithUrl()">From url</button></li>'].join('');
