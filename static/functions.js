@@ -34,8 +34,10 @@ var inputWithFile = function () {
 }
 var chooseInputType = function () {
 	var html = [
+	'<ul class="selectInput">',
 	'<li><button type="button" onclick="inputWithFile()">From file</button></li>',
-	'<li><button type="button" onclick="inputWithUrl()">From url</button></li>'].join('');
+	'<li><button type="button" onclick="inputWithUrl()">From url</button></li>',
+	'</ul>'].join('');
 	var div = document.getElementById('main');
 	div.innerHTML = '';
 	div.innerHTML = html;
