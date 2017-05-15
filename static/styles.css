@@ -1,1 +1,16 @@
 
+.welcomeTable {
+  padding: 100px; 
+  padding-bottom: 400px; 
+  margin: -10px; 
+  display: flex; 
+  justify-content: center; 
+  background-image: url('https://www.walldevil.com/wallpapers/w07/simple-simple-background-hd-background.jpg')
+}
+
+.welcomeTable button.welcome {
+  background: transparent;
+  border: none;
+  font-size: 100px;
+  line-height: 130px;
+  color: white;}
