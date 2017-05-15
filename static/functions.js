@@ -1,6 +1,6 @@
 
 var displayImageFromUrl = function () {
-	var value = document.getElementById('urlSubmit').value,
+	var value = document.getElementById('urlContent').value,
 	img = document.createElement('img');
 	img.src = value;
 	document.body.appendChild(img);
@@ -9,9 +9,9 @@ var displayImageFromUrl = function () {
 var inputWithUrl = function () {
 	var html = [
 		'<form method="POST" class="submitContent">',
-		'<input type="text" placeholder="url" id="urlContent">',
-		'<input type="text" placeholder="text overlay" id="selftext">',
-		'<button type="button" onclick="displayImageFromUrl()">Preview Image</button>',
+		'<input type="text" placeholder="url" id="urlContent" class="urlInput">',
+		'<input type="text" placeholder="text overlay" id="selftext" class="urlInput">',
+		'<button type="button" onclick="displayImageFromUrl()" class="urlInput">Preview Image</button>',
 		'</form>',
 		"<button type='button' onclick='chooseInputType()'>Back</button>",
 		].join('');
