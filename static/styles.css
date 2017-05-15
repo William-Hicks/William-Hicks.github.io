@@ -1,3 +1,8 @@
+#canv{
+  display:block;
+}
+
+/*---------------------------------*/
 
 .welcomeTable {
   padding: 100px; 
@@ -16,9 +21,11 @@
   color: white;}
 
 button:active {outline: none;}
+
 button:focus {outline: none;}
 
 body {background: url('http://www.guneydoguofset.com/wp-content/uploads/2013/08/G%C3%9CM%C3%9C%C5%9E1.jpg')}
+
 .mainTable {
   display: flex; 
   justify-content: center; 
