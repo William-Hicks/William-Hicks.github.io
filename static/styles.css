@@ -1,0 +1,26 @@
+@keyframes border_bottom {0% {border-bottom: 3px solid black} 50% {border-bottom: 3px solid white} 80% {border-bottom: 3px solid white;}}
+body {background:#d9dce0}
+.nav {text-align: center;}
+.nav h1 {
+  font-size: 68px;
+  font-family: sans-serif;
+  text-align: center;
+  border-bottom: 3px solid black;
+  margin-top: 0;
+  letter-spacing: 2px;
+  text-shadow: 1px 0px 0px gray;
+  animation: border_bottom 3s infinite}
+
+.nav h5 {
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 35px;}
+.mainTable {
+  text-align: center;}
+
+.mainTable input[type='text'] {
+  width: 300px;
+  font-size: 20px;
+  padding: 5px;}
+
+.footer {display: none}
