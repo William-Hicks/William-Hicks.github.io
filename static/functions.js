@@ -21,9 +21,9 @@ var displayImageFromUrl = function () {
       ctx.drawImage(img,0,0);
 
       //draw text
-      ctx.font="50px Comic Sans MS";
-      ctx.fillStyle="red";
-      ctx.fillText(text,50,150);
+      ctx.font="50px Sans Serif MS";
+      ctx.fillStyle="white";
+      ctx.fillText(text,10,10);
     };
     /*div = document.getElementById('pre'),
     html = "<img src="+value+" alt='Image Preview' id='previewImage'>";
