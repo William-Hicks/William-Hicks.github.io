@@ -15,13 +15,17 @@
 		</div>
 	</div>
 	<div class='mainTable'>
-		<form method='POST' class='submit'>
+		<form method='POST' class='submitUrl'>
+			<p>Input from url</p>
 			<input type='text' placeholder="url" name='url' id='urlSubmit'>
-			<input type='submit' value='preview image' onclick="displayImageFromUrl()"><br>
+			<input type='button' value='preview image' onclick="displayImageFromUrl()"><br>
 			<input type='text' placeholder="text overlay" name='selftext'><br>
-			<input type='text' placeholder='text placement' name='placeText'>
-			<input type='file' name='fileSubmit'><br>
-			<input type="submit" value='submit' onclick="">
+			<input type="submit" value='submit' id='submitFromUrl' onclick="">
+		</form>
+		<form method='POST' class='submitFile'>
+			<p>Input from file</p>
+			<input type='file' id='inputFile'>
+			<input type='submit' value='submit' id='submitFromFile' onclick="">
 		</form>
 	</div>
 	<div class='footer'>
