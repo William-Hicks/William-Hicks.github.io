@@ -34,6 +34,7 @@ var inputWithFile = function () {
 }
 var chooseInputType = function () {
 	var html = [
+	'<p class="inputPreface">Select image from file or from url</p>',
 	'<ul class="selectInput">',
 	'<li><button type="button" onclick="inputWithFile()">From file</button></li>',
 	'<li><button type="button" onclick="inputWithUrl()">From url</button></li>',
