@@ -11,7 +11,6 @@ function fromFile(){
 var displayImageFromUrl = function () {
     var value = document.getElementById('urlContent').value;
     var text=document.getElementById('selftext').value;
-    alert(value);
     var img=document.getElementById("img_buffer");
     var canv=document.getElementById("canv"),ctx=canv.getContext("2d");
     img.src=value;
