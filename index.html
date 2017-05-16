@@ -1,16 +1,25 @@
+<!--<input id="input" placeholder="URL here">
+<button onclick="loadImg()">GO!</button>
+<br>
+<br>
+<input id="inputFile" type="file" placeholder="URL here">
+<button onclick="fromFile()">GO!</button>
+<img style="display:none"></img>
+<canvas id="canv"></canvas>-->
 
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Image Converter</title>
-	<link rel='stylesheet' href='/static/styles.css'>
-	<script type="text/javascript" src='/static/functions.js'></script>
-</head>
-<body>
-	<div class='mainTable' id='main'>
-		<div class='welcomeTable' id='welcome'>
-		<button type='button' class='welcome' onclick='chooseInputType()'>Welcome to PDF converter. Click to begin.</button>
-		</div>
-	</div>
-</body>
+  <head>
+    <title>Image Converter</title>
+    <link rel='stylesheet' href='styles.css'>
+    <script type="text/javascript" src='functions.js'></script>
+  </head>
+  <body>
+    <img id="img_buffer" style="display:none"></img>
+    <div class='mainTable' id='main'>
+      <div class='welcomeTable' id='welcome'>
+        <button type='button' class='welcome' onclick='chooseInputType()'>Image Converter. Click to begin.</button>
+      </div>
+    </div>
+  </body>
 </html>
