@@ -74,7 +74,14 @@ var chooseInputType = function () {
     '<ul class="selectInput">',
     '<li><button type="button" onclick="inputWithFile()">From file</button></li>',
     '<li><button type="button" onclick="inputWithUrl()">From url</button></li>',
-    '</ul>'].join('');
+    '</ul>',
+    "<pre>Welcome to OMPF Converter! This site is meant for Marines who need to submit documents their personnel record (OMPF). This site provides a simple conversion to an acceptable digital format for inclusion in an OMPF. \
+\
+Per the Marine Corps, this is the requirement:\
+\
+\"HOW TO UPDATE YOUR OMPF VIA EMAIL\
+\
+To expedite the process of updating your OMPF, every document submitted should be formatted as a single-sided black and white multi-page document and should not exceed 200 DPI or 800 Kilobytes (KB)).  For better image quality we recommend that you make a black and white copy first before scanning.  We are unable to process documents submitted in Microsoft Word format (.doc) or TIF, use only JPEG, GIF, XPS or PDF formats.  Each page in the document must contain the grade, full name and EDIPI (DOD ID).\"</pre>"].join('');
     var div = document.getElementById('main');
     div.innerHTML = '';
     div.innerHTML = html;
